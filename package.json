@@ -1,0 +1,22 @@
+{
+  "name": "simplechatnodejs",
+  "version": "1.0.0",
+  "description": "Aplikasi chat sederhana",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "nodemon app.js"
+  },
+  "keywords": [
+    "simple",
+    "chat"
+  ],
+  "author": "humam al amin",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10",
+    "socket.io": "^2.2.0"
+  }
+}
